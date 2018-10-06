@@ -1,0 +1,910 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body section, body header {
+  font-family: "Open Sans";
+  color: #285e1d;
+}
+
+nav {
+  background-color: #285e1d;
+  position: fixed;
+  top: 0;
+  padding: 20px;
+  padding-bottom: 25px;
+  width: 100%;
+  height: 7%;
+  z-index: 1;
+}
+
+nav img {
+  margin: auto auto;
+  padding: 0.05rem;
+  border-radius: 50%;
+  width: 3.0rem;
+  height: 3.0rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  float: left;
+}
+
+nav img:hover {
+  width: 2.8rem;
+  height: 2.8rem;
+  border: 0.2em solid white;
+}
+
+nav ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: left;
+  width: 75%;
+  text-align: center;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  padding-top: 5px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+nav ul li {
+  float: left;
+  width: 100%;
+  min-height: 4em;
+  margin: -5px auto;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+main {
+  position: relative;
+  margin-top: 85px;
+  float: left;
+  width: 100%;
+}
+
+main strong {
+  color: #285e1d;
+}
+
+main h1 {
+  font-size: 5rem;
+  line-height: 4.5rem;
+  color: #000;
+  text-align: center;
+  padding-left: 0px;
+  font-family: "Saira Extra Condensed";
+}
+
+main .subheading {
+  text-align: center;
+  padding-left: 35px;
+  line-height: 1rem;
+  font-size: 1.1rem;
+}
+
+main p {
+  font-family: "Open Sans";
+  text-align: justify;
+  color: #868e96;
+  padding-left: 25px;
+  line-height: 1.2rem;
+  padding-top: 10px;
+}
+
+main section {
+  margin-top: 25px;
+  margin-left: 5%;
+  width: 80%;
+  text-align: center;
+}
+
+main section ul {
+  list-style: none;
+}
+
+main section h2 {
+  text-align: center;
+  padding-left: 5%;
+}
+
+main .skill-section {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-rows: repeate(3, 1fr);
+      grid-template-rows: repeate(3, 1fr);
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-gap: 10px 10px;
+  text-align: left;
+  margin-left: 9%;
+  margin-top: 5%;
+}
+
+main .skill-section .skills-bg {
+  background-color: #285e1d;
+}
+
+main .skill-section h3 {
+  text-align: center;
+}
+
+main .skill-section ul {
+  border: 1px solid #868e96;
+  border-radius: 0.2em;
+  background-color: lightgray;
+  padding-bottom: 10px;
+}
+
+main .skill-section ul li {
+  font-family: "Open Sans";
+  padding-left: 5px;
+  color: #000;
+  padding-right: 5px;
+}
+
+main .skill-section ul:hover {
+  border: 1px solid #000;
+  border-radius: 0.2em;
+}
+
+main .social-icons li {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 1rem auto auto;
+}
+
+main .social-icons ul {
+  padding-left: 35px;
+}
+
+main .social-icons img {
+  width: 2rem;
+  height: 2rem;
+}
+
+#dev-icon-list {
+  width: 100%;
+}
+
+#dev-icon-list li {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 1rem auto auto;
+}
+
+#dev-icon-list ul {
+  margin-left: 10%;
+  padding-bottom: 5%;
+}
+
+#dev-icon-list img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.divider-line {
+  width: 90%;
+  height: 10px;
+  margin-left: 5%;
+  border-bottom: 2px solid #28a745;
+  position: absolute;
+}
+
+.resume-info ul {
+  list-style: square;
+  text-align: left;
+  padding-top: 5px;
+}
+
+.resume-info h3, .resume-info h4 {
+  text-align: left;
+  color: #000;
+  padding-top: 3px;
+}
+
+.resume-info h4 {
+  color: #868e96;
+}
+
+.resume-info li {
+  margin-left: 6%;
+}
+
+footer {
+  background-color: #285e1d;
+  width: 100%;
+  position: absolute;
+}
+
+@media screen and (min-width: 360px) {
+  nav {
+    background-color: #285e1d;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: 7%;
+    z-index: 1;
+  }
+  nav img {
+    margin: auto auto;
+    padding: 0.05rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.1em solid rgba(255, 255, 255, 0.2);
+    float: left;
+  }
+  nav img:hover {
+    width: 3.3rem;
+    height: 3.3rem;
+    border: 0.2rem solid white;
+  }
+  nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    float: left;
+    width: 75%;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    padding-top: 5px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  nav ul li {
+    float: left;
+    width: 100%;
+    min-height: 4em;
+    margin: -5px auto;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  main h1 {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  nav {
+    background-color: #285e1d;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    padding-bottom: 25px;
+    width: 100%;
+    height: 7%;
+    z-index: 1;
+  }
+  nav img {
+    margin: auto auto;
+    padding: 0.05rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.1em solid rgba(255, 255, 255, 0.2);
+    float: left;
+  }
+  nav img:hover {
+    width: 3.3rem;
+    height: 3.3rem;
+    border: 0.2rem solid white;
+  }
+  nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    float: left;
+    width: 75%;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    padding-top: 5px;
+    padding-right: 15px;
+    text-align: center;
+    padding-left: 15px;
+  }
+  nav ul li {
+    float: left;
+    width: 100%;
+    min-height: 4em;
+    margin: -5px auto;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  main h1 {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    background-color: #285e1d;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    padding-bottom: 35px;
+    width: 100%;
+    height: 7%;
+    z-index: 1;
+  }
+  nav img {
+    margin: auto auto;
+    padding: 0.05rem;
+    border-radius: 50%;
+    width: 5.0rem;
+    height: 5.0rem;
+    border: 0.1em solid rgba(255, 255, 255, 0.2);
+  }
+  nav img:hover {
+    width: 4.8rem;
+    height: 4.8rem;
+    border: 0.2rem solid white;
+  }
+  nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    float: left;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    padding-top: 5px;
+    padding-left: 55px;
+    text-align: center;
+  }
+  nav ul li {
+    float: left;
+    width: 100%;
+    min-height: 4em;
+    text-align: center;
+  }
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  main {
+    position: relative;
+    margin-top: 120px;
+    float: left;
+    width: 100%;
+  }
+  main strong {
+    color: #285e1d;
+  }
+  main h1 {
+    font-size: 5rem;
+    line-height: 4.5rem;
+    color: #000;
+    text-align: center;
+    padding-left: 35px;
+    font-family: "Saira Extra Condensed";
+  }
+  main .subheading {
+    text-align: center;
+    padding-left: 35px;
+    line-height: 2rem;
+    font-size: 3rem;
+    padding-bottom: 15px;
+  }
+  main p {
+    font-family: "Open Sans";
+    text-align: justify;
+    color: #868e96;
+    padding-left: 25px;
+    line-height: 2.1rem;
+    padding-top: 10px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  main section {
+    margin-top: 25px;
+    margin-left: 6%;
+    width: 80%;
+    text-align: center;
+  }
+  main section ul {
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  main section h2 {
+    text-align: center;
+    padding-left: 5%;
+    font-size: 3rem;
+  }
+  main .skill-section {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-rows: repeate(3, 1fr);
+        grid-template-rows: repeate(3, 1fr);
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+    grid-gap: 15px 15px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  main .skill-section .skills-bg {
+    background-color: #285e1d;
+  }
+  main .skill-section h3 {
+    text-align: center;
+  }
+  main .skill-section ul {
+    border: 1px solid #868e96;
+    border-radius: 0.4em;
+    background-color: lightgray;
+    padding-bottom: 10px;
+  }
+  main .skill-section ul li {
+    font-family: "Open Sans";
+    padding-left: 5px;
+    color: #000;
+    padding-right: 5px;
+    font-size: 20px;
+  }
+  main .skill-section ul:hover {
+    border: 1px solid #000;
+    border-radius: 0.2em;
+  }
+  main .social-icons li {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 1rem auto auto;
+  }
+  main .social-icons ul {
+    padding-left: 45px;
+  }
+  main .social-icons img {
+    width: 4rem;
+    height: 4rem;
+  }
+  #dev-icon-list {
+    width: 100%;
+  }
+  #dev-icon-list li {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 1rem auto auto;
+  }
+  #dev-icon-list ul {
+    margin-left: 10%;
+    padding-bottom: 5%;
+  }
+  #dev-icon-list img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .resume-info ul {
+    list-style: square;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .resume-info h3, .resume-info h4 {
+    text-align: left;
+    color: #000;
+    padding-top: 3px;
+    font-size: 1.5rem;
+  }
+  .resume-info h4 {
+    color: #868e96;
+  }
+  .resume-info li {
+    margin-left: 6%;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  nav {
+    background-color: #285e1d;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    padding-bottom: 35px;
+    width: 100%;
+    height: 7%;
+    z-index: 1;
+  }
+  nav img {
+    margin: auto auto;
+    padding: 0.05rem;
+    border-radius: 50%;
+    width: 6.0rem;
+    height: 6.0rem;
+    border: 0.1em solid rgba(255, 255, 255, 0.2);
+  }
+  nav img:hover {
+    width: 5.8rem;
+    height: 5.8rem;
+    border: 0.2rem solid white;
+  }
+  nav ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    float: left;
+    width: 80%;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    padding-top: 5px;
+    padding-left: 65px;
+    text-align: center;
+  }
+  nav ul li {
+    float: left;
+    width: 100%;
+    min-height: 4em;
+    text-align: center;
+  }
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  main {
+    position: relative;
+    margin-top: 140px;
+    float: left;
+    width: 100%;
+  }
+  main strong {
+    font-family: "Saira Extra Condensed";
+    color: #285e1d;
+  }
+  main h1 {
+    font-size: 6rem;
+    line-height: 4.5rem;
+    color: #000;
+    text-align: center;
+    padding-left: 35px;
+    font-family: "Saira Extra Condensed";
+    padding-bottom: 10px;
+  }
+  main .subheading {
+    text-align: center;
+    padding-left: 35px;
+    line-height: 2rem;
+    font-size: 3rem;
+    padding-bottom: 15px;
+  }
+  main p {
+    font-family: "Open Sans";
+    text-align: justify;
+    color: #868e96;
+    padding-left: 25px;
+    line-height: 2.1rem;
+    padding-top: 10px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  main section {
+    margin-top: 25px;
+    margin-left: 2%;
+    width: 90%;
+    text-align: center;
+  }
+  main section ul {
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  main section h2 {
+    text-align: center;
+    padding-left: 5%;
+    font-size: 4rem;
+  }
+  main .skill-section {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-rows: repeate(3, 1fr);
+        grid-template-rows: repeate(3, 1fr);
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+    grid-gap: 20px 20px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+  main .skill-section .skills-bg {
+    background-color: #285e1d;
+  }
+  main .skill-section h3 {
+    text-align: center;
+  }
+  main .skill-section ul {
+    border: 1px solid #868e96;
+    border-radius: 0.4em;
+    background-color: lightgray;
+    padding-bottom: 20px;
+  }
+  main .skill-section ul li {
+    font-family: "Open Sans";
+    padding-left: 5px;
+    color: #000;
+    padding-right: 5px;
+    font-size: 30px;
+  }
+  main .skill-section ul:hover {
+    border: 1px solid #000;
+    border-radius: 0.2em;
+  }
+  main .social-icons li {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 1rem auto auto;
+  }
+  main .social-icons ul {
+    padding-left: 45px;
+  }
+  main .social-icons img {
+    width: 5rem;
+    height: 5rem;
+  }
+  #dev-icon-list {
+    width: 100%;
+  }
+  #dev-icon-list li {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 1rem auto auto;
+  }
+  #dev-icon-list ul {
+    margin-left: 10%;
+    padding-bottom: 5%;
+  }
+  #dev-icon-list img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .resume-info {
+    padding-left: 3%;
+  }
+  .resume-info ul {
+    list-style: square;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .resume-info h3, .resume-info h4 {
+    text-align: left;
+    color: #000;
+    padding-top: 3px;
+    font-size: 2rem;
+  }
+  .resume-info h4 {
+    color: #868e96;
+  }
+  .resume-info li {
+    margin-left: 6%;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  nav {
+    background-color: #285e1d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px;
+    padding-bottom: 35px;
+    width: 8%;
+    height: 100%;
+    z-index: 1;
+  }
+  nav img {
+    margin: auto auto;
+    padding: 0.05rem;
+    border-radius: 50%;
+    width: 6.0rem;
+    height: 6.0rem;
+    border: 0.1em solid rgba(255, 255, 255, 0.2);
+  }
+  nav img:hover {
+    width: 5.8rem;
+    height: 5.8rem;
+    border: 0.2rem solid white;
+  }
+  nav ul {
+    display: block;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed";
+    padding-top: 5em;
+    padding-left: 1rem;
+    text-align: center;
+  }
+  nav ul li {
+    float: left;
+    width: 100%;
+    min-height: 4em;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+  main {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 12%;
+    float: left;
+    width: 90%;
+  }
+  main strong {
+    font-family: "Saira Extra Condensed";
+    color: #285e1d;
+  }
+  main h1 {
+    font-size: 6rem;
+    line-height: 4.5rem;
+    color: #000;
+    text-align: center;
+    padding-left: 35px;
+    font-family: "Saira Extra Condensed";
+    padding-bottom: 10px;
+  }
+  main .subheading {
+    text-align: center;
+    padding-left: 35px;
+    line-height: 2rem;
+    font-size: 3rem;
+    padding-bottom: 15px;
+  }
+  main p {
+    font-family: "Open Sans";
+    text-align: justify;
+    color: #868e96;
+    padding-left: 25px;
+    line-height: 2.1rem;
+    padding-top: 10px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+  main section {
+    margin-top: 25px;
+    margin-left: 2%;
+    width: 90%;
+    text-align: center;
+  }
+  main section ul {
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  main section h2 {
+    text-align: center;
+    padding-left: 5%;
+    font-size: 4rem;
+  }
+  main .skill-section {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-rows: repeate(3, 1fr);
+        grid-template-rows: repeate(3, 1fr);
+    -ms-grid-columns: 33% 33% 33%;
+        grid-template-columns: 33% 33% 33%;
+    grid-gap: 25px 25px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  main .skill-section .skills-bg {
+    background-color: #285e1d;
+  }
+  main .skill-section h3 {
+    text-align: center;
+  }
+  main .skill-section ul {
+    border: 1px solid #868e96;
+    border-radius: 0.4em;
+    background-color: lightgray;
+    padding-bottom: 20px;
+  }
+  main .skill-section ul li {
+    font-family: "Open Sans";
+    padding-left: 5px;
+    color: #000;
+    padding-right: 5px;
+    font-size: 30px;
+  }
+  main .skill-section ul:hover {
+    border: 1px solid #000;
+    border-radius: 0.2em;
+  }
+  main .social-icons li {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 1rem auto auto;
+  }
+  main .social-icons ul {
+    padding-left: 45px;
+  }
+  main .social-icons img {
+    width: 5rem;
+    height: 5rem;
+  }
+  #dev-icon-list {
+    width: 100%;
+  }
+  #dev-icon-list li {
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 1rem auto auto;
+  }
+  #dev-icon-list ul {
+    margin-left: 10%;
+    padding-bottom: 5%;
+  }
+  #dev-icon-list img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .resume-info {
+    padding-left: 3%;
+  }
+  .resume-info ul {
+    list-style: square;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .resume-info h3, .resume-info h4 {
+    text-align: left;
+    color: #000;
+    padding-top: 3px;
+    font-size: 2rem;
+  }
+  .resume-info h4 {
+    color: #868e96;
+  }
+  .resume-info li {
+    margin-left: 6%;
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
